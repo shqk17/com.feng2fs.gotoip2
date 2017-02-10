@@ -7,7 +7,9 @@
     <artifactId>fsh-action-root</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
+  <groupId>cn.gyyx</groupId>
   <artifactId>fsh-action-beans</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
   <name>fsh-action-beans</name>
   <url>http://maven.apache.org</url>
   <properties>

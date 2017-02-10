@@ -20,5 +20,15 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+    	<groupId>cn.gyyx</groupId>
+    	<artifactId>fsh-action-beans</artifactId>
+    	<version>0.0.1-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+    	<groupId>cn.gyyx</groupId>
+    	<artifactId>fsh-action-bll</artifactId>
+    	<version>0.0.1-SNAPSHOT</version>
+    </dependency>
   </dependencies>
 </project>

@@ -1,4 +1,4 @@
-package org.fsh.action.beans;
+package cn.gyyx.action.beans;
 
 /**
  * Hello world!
