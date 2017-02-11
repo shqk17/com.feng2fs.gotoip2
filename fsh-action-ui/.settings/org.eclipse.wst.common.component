@@ -12,6 +12,9 @@
         <dependent-module archiveName="fsh-action-bll-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/fsh-action-bll/fsh-action-bll">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="fsh-action-dao-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/fsh-action-dao/fsh-action-dao">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <dependent-module archiveName="fsh-action-beans-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/fsh-action-beans/fsh-action-beans">
             <dependency-type>uses</dependency-type>
         </dependent-module>

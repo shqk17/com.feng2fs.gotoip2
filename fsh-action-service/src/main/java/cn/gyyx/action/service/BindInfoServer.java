@@ -52,7 +52,7 @@ public class BindInfoServer {
         LOGGER.info("炫舞吧2017情人节bindIndo：" + bindInfo);
         if (bindInfo == null) {
             // 以前没有绑定过 ，则插入
-            roleInfoBindBll.inserBindInfoBean(wdPkRoleBindBean);
+            roleInfoBindBll.insertBindInfoBean(wdPkRoleBindBean);
             result.setIsSuccess(true);
             result.setMessage("绑定成功");
             result.setData(wdPkRoleBindBean);

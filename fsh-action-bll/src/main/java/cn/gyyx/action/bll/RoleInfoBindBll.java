@@ -12,6 +12,8 @@
 package cn.gyyx.action.bll;
 
 import cn.gyyx.action.beans.WdPkRoleBindBean;
+import cn.gyyx.action.dao.BindInfoDao;
+
 
 /**
   * <p>
@@ -22,7 +24,7 @@ import cn.gyyx.action.beans.WdPkRoleBindBean;
   * @since 0.0.1
   */
 public class RoleInfoBindBll {
-
+    private BindInfoDao bindInfoDao = new BindInfoDao();
     /**
       * <p>
       *    通过用户账号查询用户信息
@@ -50,8 +52,8 @@ public class RoleInfoBindBll {
       *
       * @param wdPkRoleBindBean void
       */
-    public void inserBindInfoBean(WdPkRoleBindBean wdPkRoleBindBean) {
-        bindInfoDao.inserBindInfoBean(wdPkRoleBindBean);
+    public void insertBindInfoBean(WdPkRoleBindBean wdPkRoleBindBean) {
+        bindInfoDao.insertBindInfoBean(wdPkRoleBindBean);
         
     }
 
