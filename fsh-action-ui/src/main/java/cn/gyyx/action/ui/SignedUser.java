@@ -27,7 +27,7 @@ public class SignedUser {
 
     /**
       * <p>
-      *    方法说明
+      *    获取用户信息，未完成
       * </p>
       *
       * @action
